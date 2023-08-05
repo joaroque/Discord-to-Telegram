@@ -54,7 +54,7 @@ To get a local copy installed and working, follow these steps:
 
 ### 🚀 Setup the bot
 
-1. Get telegram client [credentials](https://my.telegram.org/auth), get the API_ID, API_HASH and CLIENT_NAME
+1. Get telegram client [credentials](https://my.telegram.org/apps), get the API_ID, API_HASH and CLIENT_NAME
 <img alt="Discord-to-Telegram banner" src="screenshots/telegram_apps.png" width="300" />
 
 
