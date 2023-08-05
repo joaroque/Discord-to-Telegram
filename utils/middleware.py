@@ -7,6 +7,11 @@ import re
 
 
 important_keywords = [
+    "SL",
+    "TP",
+    "SELL",
+    "BUY",
+    "ENTRY",
     "EURGBP",
     "AUDJPY",
     "EURAUD",

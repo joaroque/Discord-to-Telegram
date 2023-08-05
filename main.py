@@ -83,9 +83,13 @@ async def on_message(ws):
                 if channel_id == channel_id_to_monitor and message != '':
                     logging.info(f"Message received from Discord: {message}")
                     
-                    if should_send(message):
-                        # comment this line if you dont want to use middlware
-                        await send_to_telegram(f"{message}")
+                    # comment this line if you dont want to use middlware
+                    cleaned_message = should_send(message)
+                    if cleaned_message:
+                        await send_to_telegram(f"{cleaned_message}")
+
+                    # await send_to_telegram(f"{message}")
+                    
 
         elif op_code == 9:
             logging.info("Invalid session. Starting a new session...")

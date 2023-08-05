@@ -161,4 +161,5 @@ cython_debug/
 
 # Ini config file
 *.ini
-.DS_Store
+*.DS_Store
+*.session
