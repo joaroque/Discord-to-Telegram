@@ -74,7 +74,6 @@ To get a local copy installed and working, follow these steps:
     [DISCORD]
     SOURCE_CHANNEL =
     AUTH_TOKEN =
-    HEARTBEAT_INTERVAL = 100
 
    ```
 
