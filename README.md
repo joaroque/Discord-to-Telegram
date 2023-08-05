@@ -42,15 +42,15 @@ To get a local copy installed and working, follow these steps:
 
 ### 📦 Install dependencies
 
-1.Create a virtual env
+1. Create a virtual env
 
   ```shell
     python3 -m venv venv
   ```
 
-2.Active virtual env
+2. Active virtual env
 
-3.Use `pip install -r requirements.txt` to install all dependencies.
+3. Use `pip install -r requirements.txt` to install all dependencies.
 
 ### 🚀 Setup the bot
 
