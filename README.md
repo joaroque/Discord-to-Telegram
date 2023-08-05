@@ -54,11 +54,15 @@ To get a local copy installed and working, follow these steps:
 
 ### 🚀 Setup the bot
 
-1. Get telegram client [credentials](https://my.telegram.org/auth)
+1. Get telegram client [credentials](https://my.telegram.org/auth), get the API_ID, API_HASH and CLIENT_NAME
+<img alt="Discord-to-Telegram banner" src="screenshots/telegram_apps.png" width="300" />
 
-2. Get discord token on Chrome Devtools request monitoring
 
-3. Insert your token in the `.ini` file
+
+2. Get discord auth token from discord requests
+<img alt="Discord-to-Telegram banner" src="screenshots/discord_auth_token.png" width="300" />
+
+3. Setting up `.ini` file
 
    ```ini
     [TELEGRAM]
@@ -81,5 +85,8 @@ To get a local copy installed and working, follow these steps:
    ```
 
 ## Meta
+Get discord [channel id](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+
+Get Telegram [channel id](https://neliosoftware.com/content/help/how-do-i-get-the-channel-id-in-telegram/)
 
 I made this banner using saviomartin's [Slickr](https://slickr.vercel.app/) tool.
